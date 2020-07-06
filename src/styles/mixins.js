@@ -31,7 +31,7 @@ const mixins = {
     &:hover,
     &:active,
     &:focus {
-      color: ${colors.primary};
+      color: ${colors.textPrimary};
       outline: 0;
     }
   `,
@@ -73,9 +73,9 @@ const mixins = {
   smallButton: css`
     color: ${colors.primary};
     background-color: transparent;
-    border: 1px solid ${colors.primary};
+    border: 2px solid ${colors.primary};
     border-radius: ${theme.borderRadius};
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 1.2rem;
     font-size: ${fontSizes.smish};
     font-family: ${fonts.Nunito};
     line-height: 1;
@@ -85,7 +85,8 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: ${colors.transPrimary};
+      background-color: ${colors.primary};
+      color: ${colors.textSecondary};
     }
     &:after {
       display: none !important;
@@ -93,9 +94,9 @@ const mixins = {
   `,
 
   bigButton: css`
-    color: ${colors.primary};
+    color: ${colors.textPrimary};
     background-color: transparent;
-    border: 1px solid ${colors.primary};
+    border: 2px solid ${colors.textPrimary};
     border-radius: ${theme.borderRadius};
     padding: 1.25rem 1.75rem;
     font-size: ${fontSizes.sm};
@@ -107,7 +108,8 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: ${colors.transPrimary};
+      background-color: ${colors.textPrimary};
+      color: ${colors.background};
     }
     &:after {
       display: none !important;

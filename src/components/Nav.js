@@ -6,6 +6,7 @@ import { CSSTransition, TransitionGroup } from "react-transition-group"
 
 import { throttle } from "@utils"
 import { navLinks, navHeight } from "@config"
+import { Menu } from "@components"
 import { IconLogo } from "@components/icons"
 import { theme, mixins, media } from "@styles"
 const { colors, fontSizes, fonts, loaderDelay } = theme
@@ -309,7 +310,10 @@ class Nav extends Component {
                       target="_blank"
                       rel="nofollow noopener noreferrer"
                     >
-                      Contact 📩
+                      Contact{" "}
+                      <span role="img" aria-label="envelope">
+                        📩
+                      </span>
                     </StyledContactButton>
                   </div>
                 </CSSTransition>
@@ -317,6 +321,8 @@ class Nav extends Component {
             </TransitionGroup>
           </StyledLink>
         </StyledNav>
+
+        <Menu menuOpen={menuOpen} toggleMenu={this.toggleMenu} />
       </StyledContainer>
     )
   }
