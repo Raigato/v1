@@ -294,7 +294,8 @@ class Nav extends Component {
                   ))}
               </TransitionGroup>
             </StyledList>
-
+          </StyledLink>
+          <StyledLink>
             <TransitionGroup component={null}>
               {isMounted && (
                 <CSSTransition classNames={fadeDownClass} timeout={timeout}>

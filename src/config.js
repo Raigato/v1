@@ -1,4 +1,23 @@
 module.exports = {
+  socialMedia: [
+    {
+      name: "GitHub",
+      url: "https://github.com/Raigato",
+    },
+    {
+      name: "Linkedin",
+      url: "https://www.linkedin.com/in/gabriel-raymondou-25b103161/",
+    },
+    {
+      name: "Instagram",
+      url: "https://www.instagram.com/roigoujat",
+    },
+    {
+      name: "Twitter",
+      url: "https://twitter.com/graymondou",
+    },
+  ],
+
   navLinks: [
     {
       name: "About",
