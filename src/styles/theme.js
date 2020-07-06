@@ -11,6 +11,7 @@ const theme = {
     textSecondary: "#E8D2AE",
     transPrimary: hex2rgba(PRIMARY, 0.07),
     shadowBg: hex2rgba(BG, 0.7),
+    white: "#eee",
   },
 
   fonts: {

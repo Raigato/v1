@@ -4,7 +4,7 @@ import { Layout } from "@components"
 const IndexPage = ({ location, data }) => {
   return (
     <Layout location={location}>
-      <p>Hello World</p>
+      <h1>Hello World</h1>
     </Layout>
   )
 }
