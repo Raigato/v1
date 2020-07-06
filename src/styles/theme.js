@@ -10,7 +10,7 @@ const theme = {
     textPrimary: "#D7B29D",
     textSecondary: "#E8D2AE",
     transPrimary: hex2rgba(PRIMARY, 0.07),
-    shadowBg = hex2rgba(BG, 0.7)
+    shadowBg: hex2rgba(BG, 0.7),
   },
 
   fonts: {
