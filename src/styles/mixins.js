@@ -75,7 +75,7 @@ const mixins = {
     background-color: transparent;
     border: 2px solid ${colors.primary};
     border-radius: ${theme.borderRadius};
-    padding: 0.75rem 1.2rem;
+    padding: 0.75rem 1.5rem;
     font-size: ${fontSizes.smish};
     font-family: ${fonts.Nunito};
     line-height: 1;
@@ -94,11 +94,11 @@ const mixins = {
   `,
 
   bigButton: css`
-    color: ${colors.textPrimary};
+    color: ${colors.primary};
     background-color: transparent;
-    border: 2px solid ${colors.textPrimary};
+    border: 2px solid ${colors.primary};
     border-radius: ${theme.borderRadius};
-    padding: 1.25rem 1.75rem;
+    padding: 1.25rem 3.75rem;
     font-size: ${fontSizes.sm};
     font-family: ${fonts.Nunito};
     line-height: 1;
@@ -108,8 +108,8 @@ const mixins = {
     &:hover,
     &:focus,
     &:active {
-      background-color: ${colors.textPrimary};
-      color: ${colors.background};
+      background-color: ${colors.primary};
+      color: ${colors.textSecondary};
     }
     &:after {
       display: none !important;

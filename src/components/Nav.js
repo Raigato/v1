@@ -150,7 +150,7 @@ const StyledList = styled.ol`
 const StyledListItem = styled.li`
   margin: 0 10px;
   position: relative;
-  font-size: ${fontSizes.smish};
+  font-size: ${fontSizes.sm};
   counter-increment: item 1;
 `
 const StyledListLink = styled(Link)`

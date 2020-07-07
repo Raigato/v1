@@ -56,7 +56,7 @@ const GlobalStyle = createGlobalStyle`
   h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
     color: ${colors.textSecondary};
-    margin: 0 0 10ox 0;
+    margin: 0 0 10px 0;
   }
 
   h1 {

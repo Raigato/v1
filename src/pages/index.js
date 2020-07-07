@@ -1,12 +1,119 @@
 import React from "react"
-import { Layout } from "@components"
+import styled from "styled-components"
+import { Layout, Hero } from "@components"
+import { Main } from "@styles"
+
+const StyledMainContainer = styled(Main)`
+  counter-reset: section;
+`
 
 const IndexPage = ({ location, data }) => {
   return (
     <Layout location={location}>
-      <h1>Hello World</h1>
+      <StyledMainContainer className="fillHeight">
+        <Hero data={data.hero.edges} />
+      </StyledMainContainer>
     </Layout>
   )
 }
 
 export default IndexPage
+
+export const pageQuery = graphql`
+  {
+    hero: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/hero/" } }) {
+      edges {
+        node {
+          frontmatter {
+            title
+            name
+            subtitle
+            buttonText
+          }
+          html
+        }
+      }
+    }
+    about: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/about/" } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            avatar {
+              childImageSharp {
+                fluid(
+                  maxWidth: 700
+                  quality: 90
+                  traceSVG: { color: "#64ffda" }
+                ) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+              }
+            }
+            skills
+          }
+          html
+        }
+      }
+    }
+    jobs: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/jobs/" } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            company
+            location
+            range
+            url
+          }
+          html
+        }
+      }
+    }
+    featured: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/featured/" } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            cover {
+              childImageSharp {
+                fluid(
+                  maxWidth: 700
+                  quality: 90
+                  traceSVG: { color: "#64ffda" }
+                ) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+              }
+            }
+            tech
+            github
+            external
+          }
+          html
+        }
+      }
+    }
+    contact: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/contact/" } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            buttonText
+          }
+          html
+        }
+      }
+    }
+  }
+`
