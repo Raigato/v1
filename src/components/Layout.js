@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Nav, Social, Email } from "@components"
+import { Nav, Social, Email, Footer } from "@components"
 import { GlobalStyle, theme } from "@styles"
 
 const { colors, fontSizes, fonts } = theme
@@ -79,6 +79,7 @@ const Layout = ({ children, location }) => {
         <Social isHome={isHome} />
         <Email isHome={isHome} />
         <div id="content">{children}</div>
+        <Footer />
       </StyledContent>
     </div>
   )

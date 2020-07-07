@@ -1,4 +1,6 @@
 module.exports = {
+  author: "Gabriel RAYMONDOU",
+  githubRepo: "https://github.com/Raigato/v1",
   email: "gabriel.raymondou@gmail.com",
   socialMedia: [
     {
