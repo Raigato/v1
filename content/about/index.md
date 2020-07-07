@@ -2,8 +2,8 @@
 title: "About Me 🧑‍💻"
 avatar: "./me.jpg"
 skills:
-  - node-js | Node.js
-  - react | React
+  - node-js | Node.js
+  - react | React
   - html5 | Html
   - sass | Sass
   - wordpress-simple | Wordpress
