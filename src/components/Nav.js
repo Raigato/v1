@@ -5,7 +5,7 @@ import Helmet from "react-helmet"
 import { CSSTransition, TransitionGroup } from "react-transition-group"
 
 import { throttle } from "@utils"
-import { navLinks, navHeight } from "@config"
+import { navLinks, navHeight, email } from "@config"
 import { Menu } from "@components"
 import { IconLogo } from "@components/icons"
 import { theme, mixins, media } from "@styles"
@@ -306,11 +306,7 @@ class Nav extends Component {
                       }ms`,
                     }}
                   >
-                    <StyledContactButton
-                      href="#contact"
-                      target="_blank"
-                      rel="nofollow noopener noreferrer"
-                    >
+                    <StyledContactButton href={"mailto:" + email}>
                       Contact{" "}
                       <span role="img" aria-label="envelope">
                         📩

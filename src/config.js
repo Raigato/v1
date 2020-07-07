@@ -1,4 +1,5 @@
 module.exports = {
+  email: "gabriel.raymondou@gmail.com",
   socialMedia: [
     {
       name: "GitHub",
@@ -6,7 +7,7 @@ module.exports = {
     },
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/gabriel-raymondou-25b103161/",
+      url: "https://www.linkedin.com/in/gabriel-raymondou/",
     },
     {
       name: "Instagram",
