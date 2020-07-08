@@ -9,7 +9,6 @@ const { colors, fontSizes, fonts } = theme
 
 const StyledContainer = styled(Section)`
   position: relative;
-  max-width: 700px;
 `
 const StyledTabs = styled.div`
   display: flex;
@@ -72,7 +71,7 @@ const StyledTabButton = styled.button`
   text-align: left;
   white-space: nowrap;
   font-family: ${fonts.Nunito};
-  font-size: ${fontSizes.smish};
+  font-size: ${fontSizes.sm};
   color: ${props => (props.isActive ? colors.primary : colors.textPrimary)};
   ${media.tablet`padding: 0 15px 2px;`};
   ${media.thone`

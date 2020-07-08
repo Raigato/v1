@@ -12,6 +12,7 @@ const StyledContainer = styled(Section)`
   ${mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
+  margin-top: 50px;
 `
 const StyledContent = styled.div`
   position: relative;
