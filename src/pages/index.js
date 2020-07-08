@@ -1,5 +1,7 @@
 import React from "react"
+import { graphql } from "gatsby"
 import styled from "styled-components"
+
 import { Layout, Hero, About, Jobs, Featured, Contact } from "@components"
 import { Main } from "@styles"
 

@@ -44,6 +44,11 @@ module.exports = {
 
   navHeight: 100,
 
+  colors: {
+    primary: "#81799c",
+    background: "#1F2041",
+  },
+
   srConfig: (delay = 200) => ({
     origin: "bottom",
     distance: "20px",

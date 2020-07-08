@@ -1,7 +1,8 @@
+import { colors } from "@config"
 import { hex2rgba, shadeHex } from "@utils"
 
-const PRIMARY = shadeHex("#4B3F72", 30)
-const BG = "#1F2041"
+const PRIMARY = colors.primary
+const BG = colors.background
 
 const theme = {
   colors: {

@@ -150,7 +150,7 @@ const StyledList = styled.ol`
 const StyledListItem = styled.li`
   margin: 0 10px;
   position: relative;
-  font-size: ${fontSizes.sm};
+  font-size: ${fontSizes.md};
   counter-increment: item 1;
 `
 const StyledListLink = styled(Link)`
@@ -159,7 +159,7 @@ const StyledListLink = styled(Link)`
 const StyledContactButton = styled.a`
   ${mixins.smallButton};
   margin-left: 10px;
-  font-size: ${fontSizes.smish};
+  font-size: ${fontSizes.sm};
 
   span {
     margin-left: 0.5rem;

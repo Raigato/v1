@@ -1,7 +1,8 @@
 import React from "react"
+import { StaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 
-import { Nav, Social, Email, Footer } from "@components"
+import { Head, Nav, Social, Email, Footer } from "@components"
 import { GlobalStyle, theme } from "@styles"
 
 const { colors, fontSizes, fonts } = theme
@@ -69,19 +70,36 @@ const Layout = ({ children, location }) => {
   // }, [isLoading])
 
   return (
-    <div id="root">
-      <GlobalStyle />
+    <StaticQuery
+      query={graphql`
+        query LayoutQuery {
+          site {
+            siteMetadata {
+              title
+              siteUrl
+              description
+            }
+          }
+        }
+      `}
+      render={({ site }) => (
+        <div id="root">
+          <Head metadata={site.siteMetadata} />
 
-      <SkipToContent href="#content">Skip to Content</SkipToContent>
+          <GlobalStyle />
 
-      <StyledContent>
-        <Nav isHome={isHome} />
-        <Social isHome={isHome} />
-        <Email isHome={isHome} />
-        <div id="content">{children}</div>
-        <Footer />
-      </StyledContent>
-    </div>
+          <SkipToContent href="#content">Skip to Content</SkipToContent>
+
+          <StyledContent>
+            <Nav isHome={isHome} />
+            <Social isHome={isHome} />
+            <Email isHome={isHome} />
+            <div id="content">{children}</div>
+            <Footer />
+          </StyledContent>
+        </div>
+      )}
+    />
   )
 }
 
