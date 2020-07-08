@@ -91,12 +91,12 @@ const StyledTabButton = styled.button`
 const StyledHighlight = styled.span`
   display: block;
   background: ${colors.primary};
-  width: 2px;
+  width: 4px;
   height: ${theme.tabHeight}px;
   border-radius: ${theme.borderRadius};
   position: absolute;
   top: 0;
-  left: 0;
+  left: -1px;
   transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition-delay: 0.1s;
   z-index: 10;
