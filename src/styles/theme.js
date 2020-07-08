@@ -16,7 +16,7 @@ const theme = {
   },
 
   fonts: {
-    main: "Nunito, sans-serif",
+    main: "PT Sans, sans-serif",
   },
 
   fontSizes: {
