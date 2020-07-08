@@ -1,7 +1,7 @@
 ---
 date: "2019-09-01"
 title: "Co-Founder"
-company: "Hero-Com SAS"
+company: "Hero-Com"
 location: "Cannes, FR"
 range: "Sept - Dec 2019"
 url: ""

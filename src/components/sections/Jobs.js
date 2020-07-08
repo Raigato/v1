@@ -106,8 +106,10 @@ const StyledHighlight = styled.span`
   ${media.thone`
     width: 100%;
     max-width: ${theme.tabWidth}px;
+    border-radius: ${theme.borderRadius};
     height: 2px;
     top: auto;
+    left: 0;
     bottom: 0;
     transform: translateX(
       ${props =>
