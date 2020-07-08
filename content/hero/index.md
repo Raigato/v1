@@ -1,7 +1,7 @@
 ---
 title: "Hi, my name is"
 name: "Gabriel RAYMONDOU."
-subtitle: "I build awesome stuff for today’s web 🚀"
+subtitle: "I build awesome stuff for Today’s Web 🚀"
 buttonText: "👉 Get In Touch"
 ---
 

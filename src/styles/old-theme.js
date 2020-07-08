@@ -1,15 +1,15 @@
 import { hex2rgba, shadeHex } from "@utils"
 
-const PRIMARY = shadeHex("#4B3F72", 30)
-const BG = "#1F2041"
+const PRIMARY = "#CB8589"
+const BG = "#796465"
 
 const theme = {
   colors: {
     background: BG,
     lightBackground: shadeHex(BG, 5),
     primary: PRIMARY,
-    textPrimary: "#62BBC1",
-    textSecondary: "#FFFBFC",
+    textPrimary: "#D7B29D",
+    textSecondary: "#E8D2AE",
     transPrimary: hex2rgba(PRIMARY, 0.07),
     shadowBg: hex2rgba(BG, 0.7),
     white: "#eee",
