@@ -6,6 +6,7 @@ const BG = "#796465"
 const theme = {
   colors: {
     background: BG,
+    lightBackground: "#886E6F",
     primary: PRIMARY,
     textPrimary: "#D7B29D",
     textSecondary: "#E8D2AE",

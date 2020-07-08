@@ -77,7 +77,7 @@ const ContactLink = styled.a`
   ${mixins.bigButton};
   color: ${colors.textPrimary};
   border: 2px solid ${colors.textPrimary};
-  padding: 18px 50px;
+  padding: 18px 30px;
   margin: 10% auto 0;
   width: max-content;
 
@@ -86,6 +86,10 @@ const ContactLink = styled.a`
   &:active {
     background-color: ${colors.textPrimary};
     color: ${colors.background};
+  }
+
+  span {
+    margin-left: 0.5rem;
   }
 `
 

@@ -160,6 +160,10 @@ const StyledContactButton = styled.a`
   ${mixins.smallButton};
   margin-left: 10px;
   font-size: ${fontSizes.smish};
+
+  span {
+    margin-left: 0.5rem;
+  }
 `
 
 const DELTA = 5

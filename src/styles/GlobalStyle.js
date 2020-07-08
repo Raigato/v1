@@ -217,6 +217,10 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
   }
 
+  .emoji {
+    margin-left: 1rem;
+  }
+
   ${TransitionStyles};
 `
 

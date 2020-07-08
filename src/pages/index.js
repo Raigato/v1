@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { Layout, Hero, About, Jobs } from "@components"
+import { Layout, Hero, About, Jobs, Featured } from "@components"
 import { Main } from "@styles"
 
 const StyledMainContainer = styled(Main)`
@@ -14,6 +14,7 @@ const IndexPage = ({ location, data }) => {
         <Hero data={data.hero.edges} />
         <About data={data.about.edges} />
         <Jobs data={data.jobs.edges} />
+        <Featured data={data.featured.edges} />
       </StyledMainContainer>
     </Layout>
   )

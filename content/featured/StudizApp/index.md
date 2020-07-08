@@ -1,5 +1,5 @@
 ---
-date: "1"
+date: "3"
 title: "Studiz App"
 cover: "./studiz.png"
 github: "https://github.com/Raigato/myStudizApp"

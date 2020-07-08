@@ -202,7 +202,7 @@ const Jobs = ({ data }) => {
     <StyledContainer id="jobs" ref={revealContainer}>
       <Heading>
         Where I&apos;ve Worked{" "}
-        <span role="img" aria-label="worker">
+        <span class="emoji" role="img" aria-label="worker">
           👷🏻‍♂️
         </span>
       </Heading>

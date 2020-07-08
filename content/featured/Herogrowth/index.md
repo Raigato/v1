@@ -1,5 +1,5 @@
 ---
-date: "3"
+date: "1"
 title: "Herogrowth"
 cover: "./herogrowth.png"
 github: "https://github.com/Raigato/herogrowth.co"
