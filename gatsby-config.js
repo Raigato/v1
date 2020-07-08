@@ -51,4 +51,5 @@ module.exports = {
       },
     },
   ],
+  pathPrefix: "/raigato.github.io",
 }
