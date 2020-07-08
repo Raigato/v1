@@ -93,7 +93,6 @@ const StyledHighlight = styled.span`
   background: ${colors.primary};
   width: 4px;
   height: ${theme.tabHeight}px;
-  border-radius: ${theme.borderRadius};
   position: absolute;
   top: 0;
   left: -1px;
