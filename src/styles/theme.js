@@ -1,4 +1,4 @@
-import { hex2rgba } from "@utils"
+import { hex2rgba, shadeHex } from "@utils"
 
 const PRIMARY = "#CB8589"
 const BG = "#796465"
@@ -6,7 +6,7 @@ const BG = "#796465"
 const theme = {
   colors: {
     background: BG,
-    lightBackground: "#886E6F",
+    lightBackground: shadeHex(BG, 5),
     primary: PRIMARY,
     textPrimary: "#D7B29D",
     textSecondary: "#E8D2AE",
