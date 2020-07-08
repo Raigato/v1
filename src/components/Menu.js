@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
-import { navLinks } from "@config"
+import { navLinks, email } from "@config"
 import { theme, mixins, media } from "@styles"
 const { colors, fontSizes, fonts } = theme
 
@@ -123,7 +123,7 @@ const Menu = ({ menuOpen, toggleMenu }) => {
               ))}
           </NavList>
           <ContactLink
-            href="#contact"
+            href={"mailto:" + email}
             target="_blank"
             rel="nofollow noopener noreferrer"
           >
