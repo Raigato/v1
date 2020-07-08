@@ -37,6 +37,7 @@ const StyledTitle = styled.h4`
 `
 const StyledEmailLink = styled.a`
   ${mixins.bigButton};
+  font-size: ${fontSizes.md};
   margin-top: 50px;
 `
 
