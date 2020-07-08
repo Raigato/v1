@@ -222,7 +222,7 @@ const Featured = ({ data }) => {
     <StyledContainer id="projects">
       <Heading ref={revealTitle}>
         Some Things I&apos;ve Built{" "}
-        <span class="emoji" role="img" aria-label="wrench">
+        <span className="emoji" role="img" aria-label="wrench">
           🔧
         </span>
       </Heading>
