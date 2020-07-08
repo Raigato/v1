@@ -28,7 +28,7 @@ const SkipToContent = styled.a`
     border-radius: ${theme.borderRadius};
     padding: 18px 23px;
     font-size: ${fontSizes.sm};
-    font-family: ${fonts.Nunito};
+    font-family: ${fonts.main};
     line-height: 1;
     text-decoration: none;
     cursor: pointer;

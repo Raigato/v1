@@ -41,7 +41,7 @@ const SkillsContainer = styled.ul`
 const Skill = styled.li`
   position: relative;
   margin-bottom: 10px;
-  font-family: ${fonts.Nunito};
+  font-family: ${fonts.main};
   font-size: ${fontSizes.lg};
   color: ${colors.slate};
 `

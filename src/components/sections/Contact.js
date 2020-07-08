@@ -15,7 +15,7 @@ const StyledHeading = styled(Heading)`
   display: block;
   color: ${colors.primary};
   font-size: ${fontSizes.md};
-  font-family: ${fonts.Nunito};
+  font-family: ${fonts.main};
   font-weight: normal;
   margin-bottom: 20px;
   justify-content: center;

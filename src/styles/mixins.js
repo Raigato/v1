@@ -77,7 +77,7 @@ const mixins = {
     border-radius: ${theme.borderRadius};
     padding: 0.75rem 1.5rem;
     font-size: ${fontSizes.smish};
-    font-family: ${fonts.Nunito};
+    font-family: ${fonts.main};
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
@@ -100,7 +100,7 @@ const mixins = {
     border-radius: ${theme.borderRadius};
     padding: 1.25rem 3.75rem;
     font-size: ${fontSizes.sm};
-    font-family: ${fonts.Nunito};
+    font-family: ${fonts.main};
     line-height: 1;
     text-decoration: none;
     cursor: pointer;

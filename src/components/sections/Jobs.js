@@ -70,7 +70,7 @@ const StyledTabButton = styled.button`
   border-left: 2px solid ${colors.textSecondary};
   text-align: left;
   white-space: nowrap;
-  font-family: ${fonts.Nunito};
+  font-family: ${fonts.main};
   font-size: ${fontSizes.sm};
   color: ${props => (props.isActive ? colors.primary : colors.textPrimary)};
   ${media.tablet`padding: 0 15px 2px;`};
@@ -147,7 +147,7 @@ const StyledCompany = styled.span`
   color: ${colors.primary};
 `
 const StyledJobDetails = styled.h5`
-  font-family: ${fonts.Nunito};
+  font-family: ${fonts.main};
   font-size: ${fontSizes.smish};
   font-weight: normal;
   letter-spacing: 0.05em;

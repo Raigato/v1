@@ -23,7 +23,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${colors.background};
     color: ${colors.textPrimary};
     line-height: 1.3;
-    font-family: ${fonts.Nunito};
+    font-family: ${fonts.main};
     font-size: ${fontSizes.xl};
     ${media.phablet`font-size: ${fontSizes.lg};`};
 
@@ -192,7 +192,7 @@ const GlobalStyle = createGlobalStyle`
 
   .overline {
     color: ${colors.primary};
-    font-family: ${fonts.Nunito};
+    font-family: ${fonts.main};
     font-size: ${fontSizes.md};
     font-weight: normal;
   }
@@ -201,7 +201,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${colors.primary};
     margin: 0 0 20px 0;
     font-size: ${fontSizes.md};
-    font-family: ${fonts.Nunito};
+    font-family: ${fonts.main};
     font-weight: normal;
     line-height: 1.5;
     ${media.desktop`font-size: ${fontSizes.sm};`};

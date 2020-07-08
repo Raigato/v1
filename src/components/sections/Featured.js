@@ -29,7 +29,7 @@ const StyledLabel = styled.h4`
   font-size: ${fontSizes.smish};
   font-weight: normal;
   color: ${colors.primary};
-  font-family: ${fonts.Nunito};
+  font-family: ${fonts.main};
   margin-top: 10px;
   padding-top: 0;
 `
@@ -77,7 +77,7 @@ const StyledTechList = styled.ul`
   list-style: none;
 
   li {
-    font-family: ${fonts.Nunito};
+    font-family: ${fonts.main};
     font-size: ${fontSizes.smish};
     color: ${colors.textPrimary};
     margin-right: ${theme.margin};

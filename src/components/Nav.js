@@ -41,7 +41,7 @@ const StyledNav = styled.nav`
   position: relative;
   width: 100%;
   color: ${colors.textSecondary};
-  font-family: ${fonts.Nunito};
+  font-family: ${fonts.main};
   counter-reset: item 0;
   z-index: 12;
 `

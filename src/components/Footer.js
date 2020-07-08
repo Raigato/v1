@@ -36,7 +36,7 @@ const StyledSocialLink = styled.a`
   }
 `
 const StyledMetadata = styled.div`
-  font-family: ${fonts.Nunito};
+  font-family: ${fonts.main};
   font-size: ${fontSizes.xs};
   line-height: 1;
 `
