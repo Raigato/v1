@@ -1,15 +1,18 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
+const config = require("./src/config")
 
 module.exports = {
-  // TODO: Website SEO
+  siteMetadata: {
+    title: config.siteTitle,
+    siteUrl: config.siteUrl,
+    description: config.siteDescription,
+  },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
     {
       resolve: "gatsby-source-filesystem",
       options: {
