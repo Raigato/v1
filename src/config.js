@@ -4,7 +4,7 @@ module.exports = {
     "Gabriel RAYMONDOU is a freelance full stack web dev based in Cannes, France, specialising in building exceptional websites, applications and powerful custom growth hacking tools.",
   siteKeywords:
     "Gabriel Raymondou, Gabriel, Raymondou, fullstack, web dev, web developer, javascript, react, gatsby",
-  siteUrl: "https://raigato.com",
+  siteUrl: "http://raigato.github.io/",
   author: "Gabriel RAYMONDOU",
   githubRepo: "https://github.com/Raigato/v1",
   email: "gabriel.raymondou@gmail.com",

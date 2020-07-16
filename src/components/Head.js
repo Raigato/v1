@@ -29,7 +29,7 @@ const Head = ({ metadata }) => (
     </title>
 
     <link rel="shortcut icon" href={favicon} />
-    <link rel="canonical" href="https://raigato.com" />
+    <link rel="canonical" href="http://raigato.github.io/" />
 
     <meta name="description" content={metadata.description} />
     <meta name="keywords" content={config.siteKeywords} />
