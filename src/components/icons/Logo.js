@@ -20,93 +20,36 @@ const IconLogo = () => (
         <polygon
           id="Shape"
           points="330,170.6 321.7,162 321.7,195.8 330,195.8"
-          stroke="currentColor"
-          strokeWidth="5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
+          fill="currentColor"
         />
         <g>
           <polygon
             points="232,101 232,93 186,93 178.1,101"
-            stroke="currentColor"
-            strokeWidth="5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+            fill="currentColor"
           />
           <polygon
             points="186,102 177.9,102 177.9,167 186,174.1"
-            stroke="currentColor"
-            strokeWidth="5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+            fill="currentColor"
           />
           <polygon
             points="202,139.1 202,131.1 224.5,131.1 233,139.1"
-            stroke="currentColor"
-            strokeWidth="5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+            fill="currentColor"
           />
           <polygon
             points="233,140 224,140 224,174.9 233,167"
-            stroke="currentColor"
-            strokeWidth="5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+            fill="currentColor"
           />
-          <rect
-            x="187.1"
-            y="167"
-            width="35.8"
-            height="8"
-            stroke="currentColor"
-            strokeWidth="5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <rect
-            x="250"
-            y="166"
-            width="7.9"
-            height="8.9"
-            stroke="currentColor"
-            strokeWidth="5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <rect
-            x="276"
-            y="162"
-            width="44.5"
-            height="7.9"
-            stroke="currentColor"
-            strokeWidth="5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <rect
-            x="276"
-            y="171"
-            width="8"
-            height="72.5"
-            stroke="currentColor"
-            strokeWidth="5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
+          <rect x="187.1" y="167" width="35.8" height="8" fill="currentColor" />
+          <rect x="250" y="166" width="7.9" height="8.9" fill="currentColor" />
+          <rect x="276" y="162" width="44.5" height="7.9" fill="currentColor" />
+          <rect x="276" y="171" width="8" height="72.5" fill="currentColor" />
           <polygon
             points="290.3,204 297.3,196.9 330,196.9 321.8,204"
-            stroke="currentColor"
-            strokeWidth="5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+            fill="currentColor"
           />
           <polygon
             points="298.4,205.1 289.3,205.1 318.3,244 328.7,244"
-            stroke="currentColor"
-            strokeWidth="5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+            fill="currentColor"
           />
         </g>
       </g>
